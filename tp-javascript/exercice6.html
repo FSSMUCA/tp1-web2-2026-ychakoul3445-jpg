@@ -9,18 +9,20 @@
     <!-- Votre contenu HTML ici -->
 
     <script>
+      //il ne faut pas nommer une variable avec un mot reservé ou un opérateur arithmétique et ne peuvent pas commencer avec un chiffre ou un espace
+      //on utilise le camel case
+      let premierPrix = 100;
+      let deuxiemePrix = 80;
+      let prixMinimum = 50;
 
-      let 1erPrix = 100;
-      let deuxieme prix = 80;
-      let prix-minimum = 50;
+      let troisiemePrix = 200;
+      
+      let prixMaximum = 300;
+      let prixMoyen = (premierPrix + deuxiemePrix + prixMinimum + troisiemePrix + prixMaximum) / 5;
 
-      //il ne faut pas nommer une variable 
-      let var = 200;
-      let PrixMaximum = 300;
-      let prix_moyen = (1erPrix + deuxieme prix + prix-minimum + var + PrixMaximum) / 5;
-
-      console.log("Prix moyen : " + prix_moyen);
-      console.log("Le prix minimum est : " + prix-minimum);
+      console.log("Prix moyen : " + prixMoyen);
+      console.log("Le prix minimum est : " + prixMinimum);
+      console.log("Le prix maximum est : " + prixMaximum);
     </script>
   </body>
 </html>

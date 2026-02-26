@@ -13,17 +13,20 @@
     <p id="presentation">...</p>
 
     <script>
+        //declaration
         let prenom = "Yassmine";
         let nom = "CHAKOUL";
         let ville = "Marrakech";
         let age = 19;
 
+        //lier js avec html et afficher dans le web
         document.getElementById("nomComplet").innerHTML = `${prenom} ${nom}`;
         document.getElementById("age").innerHTML = age;
         document.getElementById("ville").innerHTML = ville;
         document.getElementById("presentation").innerHTML = `Je m'appelle ${prenom} ${nom}, j'ai ${age} ans et j'habite à ${ville}.`;
-
         console.log(`Je m'appelle ${prenom} ${nom}, j'ai ${age} ans et j'habite à ${ville}.`);
+
+        //changer le nom de title
         document.title = "Fiche de " + prenom;
 
     </script>
